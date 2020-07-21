@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000"
+    tools:context=".MainActivity">
+
+
+
+
+
+
+    <ViewFlipper
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:id="@+id/flipper"
+        android:layout_gravity="center"/>
+
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/flipper"
+    android:orientation="horizontal"
+    android:id="@+id/linear1">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:id="@+id/content"
+        android:text="All that Peace!!"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"/>
+
+    <ImageButton
+        android:layout_width="54dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/ic_outline_favorite_border_24" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1234"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"/>
+
+    <ImageButton
+        android:layout_width="50sp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/ic_baseline_share_24"/>
+
+
+
+</LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:id="@+id/small"
+        android:layout_below="@+id/linear1"
+        android:layout_marginTop="10sp"
+        android:text="Best Events | 10 Events"
+        android:textSize="15sp"
+        android:textColor="#FFFFFF"/>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_below="@+id/small"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Finalprojectround1</string>
+
+    <string-array name="music_concerts">
+        <item>Nucelya</item>
+        <item>Justin Bieber</item>
+        <item>Coldplay</item>
+        <item>Ed Sheeran</item>
+        <item>Katy Perry</item>
+        <item>Bryan Adams</item>
+
+    </string-array>
+
+    <string-array name="place">
+        <item>NCPA</item>
+        <item>NCPA</item>
+        <item>RAJIV GANDHI COMPLEX</item>
+        <item>CONCERTEX</item>
+        <item>LIVEX</item>
+        <item>NCPA</item>
+
+
+
+
+    </string-array>
+</resources>
